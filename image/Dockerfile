@@ -1,5 +1,5 @@
-FROM cassandra:2.2
-MAINTAINER Vy-Shane Xie <shane@node.mu>
+FROM cassandra:3
+MAINTAINER henry <jaohaohsuan@gmail.com>
 ENV REFRESHED_AT 2015-12-23
 
 RUN apt-get -qq update && \
