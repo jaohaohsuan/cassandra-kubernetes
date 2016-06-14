@@ -14,7 +14,7 @@ spec:
         name: cassandra3
     spec:
       containers:
-        - image: 127.0.0.1:5000/inu/cassandra:3.0.6
+        - image: 127.0.0.1:5000/inu/cassandra-kubernetes:3.0.6
           name: cassandra3
           env:
             - name: PEER_DISCOVERY_SERVICE
