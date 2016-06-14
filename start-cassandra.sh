@@ -1,5 +1,5 @@
 #!/bin/bash
 
-kubectl create -f cassandra-peer-service.yml
-kubectl create -f cassandra-service.yml
-kubectl create -f cassandra-replication-controller.yml
+kubectl apply -f cassandra-peer-service.yml
+kubectl apply -f cassandra-service.yml
+kubectl apply -f cassandra-replication-controller.yml
