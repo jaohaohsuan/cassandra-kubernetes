@@ -1,4 +1,4 @@
-FROM cassandra:3.0.6
+FROM cassandra:3.0
 MAINTAINER henry <jaohaohsuan@gmail.com>
 ENV REFRESHED_AT 2015-12-23
 
