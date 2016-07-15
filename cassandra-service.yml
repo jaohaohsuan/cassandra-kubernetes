@@ -5,6 +5,7 @@ metadata:
     name: cassandra3
   name: cassandra3
 spec:
+  clusterIP: None
   ports:
     - port: 9042
       name: cql
