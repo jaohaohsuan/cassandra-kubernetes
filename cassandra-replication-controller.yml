@@ -24,7 +24,7 @@ spec:
             - name: CASSANDRA_CLUSTER_NAME
               value: Cassandra
             - name: CASSANDRA_DC
-              value: DC1
+              value: datacenter1
             - name: CASSANDRA_RACK
               value: Kubernetes Cluster
             - name: CASSANDRA_ENDPOINT_SNITCH
