@@ -33,7 +33,7 @@ spec:
             - containerPort: 9042
               name: cql
           volumeMounts:
-            - mountPath: /var/lib/cassandra/data
+            - mountPath: /var/lib/cassandra
               name: data
       volumes:
         - glusterfs:
